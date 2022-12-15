@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub" req_capabilities_v2="psoc6 led switch std_crypto [cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w]">
+  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub" req_capabilities_v2="psoc6 led switch std_crypto [cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cysbsyskit-01]">
     <name>Avnet IoTConnect Example</name>
     <id>mtb-avnet-example</id>
     <category>Wi-Fi</category>
