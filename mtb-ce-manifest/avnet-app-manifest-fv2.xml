@@ -4,31 +4,31 @@
     <id>mtb-avnet-optiga-example</id>
     <category>Wi-Fi</category>
 	<uri>https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example</uri>
-    <description><![CDATA[Code example to use Optiga secure element for connecting to Avnet IoTConnect platform.
+    <description><![CDATA[Code example for xx board with Optiga Secure Element for connecting to Avnet IoTConnect Platform.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example/blob/main/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
-    ]]></description>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
-        <num>main</num>
-        <commit>main</commit>
+        <num>v1.0.0</num>
+        <commit>v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub" req_capabilities_v2="psoc6 switch std_crypto [cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cysbsyskit-01]">
+  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub" req_capabilities_v2="psoc6 [cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cysbsyskit-01]">
     <name>Avnet IoTConnect Basic Example</name>
-    <id>mtb-avnet-example</id>
+    <id>mtb-avnet-basic-example</id>
     <category>Wi-Fi</category>
 	<uri>https://github.com/avnet-iotconnect/iotc-modustoolbox-example</uri>
-    <description><![CDATA[Basic example for connecting to Avnet IoTConnect platform.
+    <description><![CDATA[Basic example for connecting to Avnet IoTConnect Platform.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-sdk/blob/main/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <req_capabilities>psoc6 switch std_crypto</req_capabilities>
+    <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>main</num>
-        <commit>main</commit>
+        <num>v2.0.0</num>
+        <commit>v2.0.0</commit>
       </version>
     </versions>
   </app>

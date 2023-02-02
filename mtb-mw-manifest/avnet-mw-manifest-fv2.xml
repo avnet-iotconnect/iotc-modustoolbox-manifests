@@ -8,8 +8,8 @@
         <req_capabilities>cat1</req_capabilities>
         <versions>
             <version flow_version="2.0" tools_min_version="3.0.0">
-                <num>main</num>
-                <commit>main</commit>
+                <num>v2.0.1</num>
+                <commit>v2.0.1</commit>
             </version>
         </versions>
     </middleware>
