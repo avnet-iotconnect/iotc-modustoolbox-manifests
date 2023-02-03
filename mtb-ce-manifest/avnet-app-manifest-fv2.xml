@@ -1,21 +1,39 @@
 <apps version="2.0">
-  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub,security,crypto">
-    <name>Avnet IoTConnect Optiga Example</name>
-    <id>mtb-avnet-optiga-example</id>
-    <category>Wi-Fi</category>
+  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub,security,crypto,pasco2,dps3xx" req_capabilities_v1="cysbsyskit-dev-01">
+    <name>Avnet IoTConnect Sensor Example</name>
+    <id>mtb-avnet-sensor-example</id>
+    <category>Sensing</category>
 	<uri>https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example</uri>
-    <description><![CDATA[Code example for xx board with Optiga Secure Element for connecting to Avnet IoTConnect Platform.
+    <description><![CDATA[Code example for boards with PASCO2 and DPSxxx sensors and Optiga Secure Element to connect to Avnet IoTConnect Platform.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example/blob/main/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
-    <versions>
+    <req_capabilities>optiga_trust_m wifi</req_capabilities>
+	<versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
         <num>v1.0.0</num>
         <commit>v1.0.0</commit>
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub" req_capabilities_v2="psoc6 [cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cysbsyskit-01]">
+    <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub,security,crypto" req_capabilities_v1="cysbsyskit-dev-01">
+    <name>Avnet IoTConnect Optiga Example</name>
+    <id>mtb-avnet-optiga-example</id>
+    <category>Peripherals</category>
+	<uri>https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example</uri>
+    <description><![CDATA[Code example for boards with Optiga Secure Element to connect to Avnet IoTConnect Platform.
+    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example/blob/main/README.md">README on GitHub</a>.
+    <br><br><b>License Disclaimer:</b><br><br>
+    This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
+    <req_capabilities>optiga_trust_m wifi</req_capabilities>    
+	<versions>
+      <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
+        <num>v1.0.0</num>
+        <commit>v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub" req_capabilities_v2="psoc6 [cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w]">
     <name>Avnet IoTConnect Basic Example</name>
     <id>mtb-avnet-basic-example</id>
     <category>Wi-Fi</category>
@@ -27,8 +45,8 @@
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>v2.0.0</num>
-        <commit>v2.0.0</commit>
+        <num>main</num>
+        <commit>main</commit>
       </version>
     </versions>
   </app>
