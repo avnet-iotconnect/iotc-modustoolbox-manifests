@@ -11,8 +11,8 @@
     <req_capabilities>optiga_trust_m wifi</req_capabilities>
 	<versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
-        <num>v1.0.0</num>
-        <commit>v1.0.0</commit>
+        <num>v2.1.0</num>
+        <commit>v2.1.0</commit>
       </version>
     </versions>
   </app>
@@ -28,8 +28,8 @@
     <req_capabilities>optiga_trust_m wifi</req_capabilities>    
 	<versions>
       <version flow_version="2.0" tools_min_version="2.4.0" req_capabilities_per_version="bsp_gen2">
-        <num>v1.0.0</num>
-        <commit>v1.0.0</commit>
+        <num>v2.1.0</num>
+        <commit>v2.1.0</commit>
       </version>
     </versions>
   </app>
@@ -45,8 +45,8 @@
     <req_capabilities>psoc6</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>v2.0.1</num>
-        <commit>v2.0.1</commit>
+        <num>v2.1.0</num>
+        <commit>v2.1.0</commit>
       </version>
     </versions>
   </app>
