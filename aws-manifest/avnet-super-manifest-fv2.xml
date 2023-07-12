@@ -1,7 +1,7 @@
 <super-manifest version="2.0">
   <app-manifest-list>
     <app-manifest>
-      <uri>https://raw.githubusercontent.com/avnet-iotconnect/iotc-modustoolbox-manifests/main/aws-manifest/avnet-app-manifest-fv2.xml</uri>
+      <uri>https://raw.githubusercontent.com/avnet-iotconnect/iotc-modustoolbox-manifests/aws-manifests/aws-manifest/avnet-app-manifest-fv2.xml</uri>
     </app-manifest>
   </app-manifest-list>
   <middleware-manifest-list>
